@@ -276,7 +276,7 @@ function App() {
               <input
                 type="text "
                 placeholder="Type the domain name or a descriptive phrase..."
-                className=" border border-zinc-700 rounded-l outline-none text-white text-xs py-2 px-2 w-53"
+                className=" border border-zinc-700 rounded-l outline-none text-white text-xs py-2 px-2 w-50 md:w-55"
               />
               <button className="p-2 text-xs bg-blue-500 text-white rounded-r-md border border-zinc-700">
                 Search Domain
