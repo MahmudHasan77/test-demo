@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Yatra+One&display=swap");
+
+.appBg {
+  background: linear-gradient(90deg, #d3eaff, #ffffff, #d3eaff);
+}
+
+.smallHead {
+  color: #0062ff;
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.smallHeadImg1 {
+  width: 40px;
+  transform: translateX(20px);
+
+  animation: smallHeadImg1 5s infinite;
+}
+@keyframes smallHeadImg1 {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(-7px);
+  }
+}
+
+.smallHeadImg2 {
+  width: 40px;
+  transform: translateX(-20px);
+
+  animation: smallHeadImg2 5s infinite;
+}
+@keyframes smallHeadImg2 {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(7px);
+  }
+}
+
+.smallHeadIcon {
+  transform: translateY(20px);
+
+  animation: smallHeadIcon 5s infinite;
+}
+@keyframes smallHeadIcon {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+
+.textIcon {
+  transform: translateY(20px);
+  animation: textIcon 5s infinite;
+}
+@keyframes textIcon {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+}
+.laravelIcon {
+  width: 30px;
+  scale: 1.5;
+  opacity: 0.5;
+  animation: laravelIcon 5s infinite;
+}
+@keyframes laravelIcon {
+  0% {
+    scale: 1.5;
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.flutterIcon {
+  transform: translateX(0px);
+
+  animation: flutterIcon 5s infinite;
+}
+@keyframes flutterIcon {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+}
+.figmaIcon {
+  transform: scale(1);
+opacity: 1;
+  animation: figmaIcon 5s infinite;
+}
+@keyframes figmaIcon {
+  0% {
+    scale: 1;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+    scale: 1.5;
+  }
+}
+
+.circle-text {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-text svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.circle-text text {
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+
+.footerDiv{
+      background: radial-gradient(
+    circle at center,
+    rgb(2, 39, 53),
+    rgb(1, 5, 35) 50%
+  );
+}
+.penIcon {
+    background: linear-gradient(70deg,#C100EC,#6600F4,#3100F4)
+}
+
+.heading {
+  background: rgba(255, 255, 255, 0.511); 
+  backdrop-filter: blur(20px); 
+  padding: 5px 20px;
+}
