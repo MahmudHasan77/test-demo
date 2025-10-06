@@ -38,7 +38,7 @@ function App() {
   ];
   const [isShow, setShow] = useState(false);
   return (
-    <div className="min-h-screen appBg">
+    <div className="min-h-screen appBg overflow-hidden">
       <header className="w-full flex justify-between items-center py-2 px-5  sticky top-0 z-50 shadow heading">
         <div>
           <img
